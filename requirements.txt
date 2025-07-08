@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+pandas
+openpyxl
+PyPDF2
+python-docx
+python-dotenv
+langchain
+sentence-transformers
+faiss-cpu
