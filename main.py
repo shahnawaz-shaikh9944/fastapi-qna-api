@@ -146,3 +146,11 @@ async def ask_question(question: str = Form(...)):
     response = chain({"input_documents": docs, "question": question}, return_only_outputs=True)
 
     return {"response": response["output_text"]}
+
+
+# ... your full existing code above ...
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+
