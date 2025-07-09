@@ -5,7 +5,7 @@ name: Build and deploy Python app to Azure Web App - forwardairqna2
 on:
   push:
     branches:
-      - main  # 🔁 Changed from 'master' to 'main' (ensure this matches your branch)
+      - master  # 🔁 Changed from 'master' to 'main' (ensure this matches your branch)
   workflow_dispatch:
 
 jobs:
